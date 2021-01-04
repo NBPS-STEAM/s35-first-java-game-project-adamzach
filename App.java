@@ -16,7 +16,7 @@ public class App {
                         System.out.println("I said a number 1-10...");
                   else if (guess < secretNumber)
                         System.out.println("Too low! Try again!");
-                  else if (guess > secretNumber)
+                  else
                         System.out.println("Too high! Try again!");
             } while (guess != secretNumber);
         int secretNumber2;
@@ -33,7 +33,7 @@ public class App {
                         System.out.println("I said a number 1-100...");
                   else if (guess2 < secretNumber2)
                         System.out.println("Too small! Try again!");
-                  else if (guess2 > secretNumber2)
+                  else
                         System.out.println("Too high! Try again!");
             } while (guess2 != secretNumber2);
         int secretNumber3;
@@ -50,7 +50,7 @@ public class App {
                         System.out.println("I said a number 1-1000...");
                   else if (guess3 < secretNumber3)
                         System.out.println("Too small! Try again!");
-                  else if (guess3 > secretNumber3)
+                  else
                         System.out.println("Too high! Try again!");
             } while (guess3 != secretNumber3);
     }
